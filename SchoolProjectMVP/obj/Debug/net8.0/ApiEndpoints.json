@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "SchoolProjectMVP.Controllers.TeacherAPIController",
+    "Method": "AddTeacher",
+    "RelativePath": "api/teacher/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teacher",
+        "Type": "SchoolProjectMVP.Models.Teacher",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProjectMVP.Controllers.TeacherAPIController",
+    "Method": "DeleteTeacher",
+    "RelativePath": "api/teacher/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
